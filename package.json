@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A small todo app for project",
+  "main": "server.js",
+  "scripts": {
+    "devServer": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harmanpreet6351/todo.git"
+  },
+  "keywords": [],
+  "author": "Harman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harmanpreet6351/todo/issues"
+  },
+  "homepage": "https://github.com/Harmanpreet6351/todo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
