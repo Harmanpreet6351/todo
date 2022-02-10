@@ -4,7 +4,8 @@
   "description": "A small todo app for project",
   "main": "server.js",
   "scripts": {
-    "devServer": "nodemon server.js"
+    "devServer": "nodemon server.js",
+    "initDb": "node database.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Harmanpreet6351/todo#readme",
   "dependencies": {
+    "better-sqlite3": "^7.5.0",
     "body-parser": "^1.19.1",
     "express": "^4.17.2"
   },
