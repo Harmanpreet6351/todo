@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
-const userRouter = require('./routes/user')
+const authApi = require('./routes/authApi')
 
-app.use('/', userRouter)
+app.use('/auth', authApi)
 
 app.listen(3000)
